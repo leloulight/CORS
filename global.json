@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "projects": [
     "src",
     "test"
@@ -7,3 +8,7 @@
     "version": "1.0.0-rc1-final"
   }
 }
+=======
+    "projects": ["src", "test/WebSites"]
+}
+>>>>>>> refs/remotes/aspnet/dev

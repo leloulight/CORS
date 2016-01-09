@@ -9,10 +9,17 @@
     "keyFile": "../../tools/Key.snk"
   },
   "dependencies": {
+<<<<<<< HEAD
     "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
     "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
     "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
+=======
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-*",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-*",
+    "Microsoft.Extensions.Options": "1.0.0-*"
+>>>>>>> refs/remotes/aspnet/dev
   },
   "frameworks": {
     "net451": {},

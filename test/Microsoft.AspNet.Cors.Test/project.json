@@ -1,17 +1,36 @@
 {
   "version": "1.0.0-*",
   "dependencies": {
+<<<<<<< HEAD
     "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
     "Microsoft.AspNet.TestHost": "1.0.0-rc1-final",
     "Moq": "4.2.1312.1622",
     "xunit.runner.aspnet": "2.0.0-aspnet-rc1-final"
+=======
+    "CorsMiddlewareWebSite": "1.0.0-*",
+    "Microsoft.AspNet.Cors": "6.0.0-*",
+    "Microsoft.AspNet.TestHost": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Testing": "1.0.0-*",
+    "xunit.runner.aspnet": "2.0.0-aspnet-*"
+>>>>>>> refs/remotes/aspnet/dev
   },
   "commands": {
     "test": "xunit.runner.aspnet"
   },
   "frameworks": {
     "dnx451": {
+<<<<<<< HEAD
       "dependencies": {}
+=======
+      "dependencies": {
+        "Moq": "4.2.1312.1622",
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "moq.netcore": "4.4.0-beta8"
+      }
+>>>>>>> refs/remotes/aspnet/dev
     }
   }
 }
